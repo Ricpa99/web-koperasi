@@ -1,0 +1,80 @@
+*{
+   font-family:sans-serif, Poppins;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   background-color: var(--greyLight-1);
+}
+
+:root {
+   --primary: #00abdf;
+   --white: #FFFFFF;
+   --greyDark: #646b8c;
+   --greyLight-1: #ebf5fc;
+   --greyLight-2: #d5e0f3;
+   --greyLight-3: #c1d9f0;
+   --greyDark1- :#cecece ;
+   --primary-dark: #008ada;
+   --primary-light: #39ddfa;
+   --primary-dark-light: #00a2ff;
+}
+
+/* css login */
+
+.body{
+   position: relative;
+   min-height: 100vh;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card{
+   padding: 45px;
+   border-radius: 15px;
+   background-color: var(--greyLight-1);
+   box-shadow: 0 0 25px 5px var(--greyLight-2);
+}
+
+h5{
+   margin: 4px 0;
+   /* background-color: red; */
+}
+
+input, .login{
+   outline: none;
+   margin: 6px auto;
+   border-radius: 6px;
+   border: 2px solid var(--greyDark1-);
+   min-height: 1.5rem;
+}
+
+.btnNasabah, .deleteSetoran, .batal{
+   border-radius: 0;
+   border: none;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.login{
+   display: block;
+   min-height: 35px;
+   border: none;
+   margin-top: 38px ;
+   min-width: 100%;
+   background-color: var(--primary-dark);
+   box-shadow: 0 0 25px 0.5px var(--greyDark);
+}
+
+.login:hover{
+   border: none;
+   color: var(--white);
+   display: block;
+   min-height: 35px;
+   margin-top: 38px ;
+   min-width: 100%;
+   transition: .5s;
+   background-color: var(--primary-dark-light);
+   box-shadow: 0 0 25px 0.5px var(--greyDark);
+}

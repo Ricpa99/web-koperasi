@@ -1,0 +1,11 @@
+.tabel-detail{
+   box-shadow: 0 0 25px 5px var(--greyLight-2);
+}
+
+.formTambah{
+   display: none;
+}
+
+.form{
+   display: block;
+}
